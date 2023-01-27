@@ -1,4 +1,5 @@
 body {
+    color: white;
     background-color: rgb(253, 41, 3);
 }
 
@@ -8,6 +9,7 @@ div {
 
 button {
     background-color: chartreuse;
+    cursor: pointer;
 }
 
 button:hover {
