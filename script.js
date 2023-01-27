@@ -2,7 +2,6 @@ var quizContainer = document.getElementById("quiz");
 var resultsContainer = document.getElementById("results");
 var submitButton = document.getElementById("submit");
 
-
 // Quiz Questions 
 var questions = [
   {
@@ -128,3 +127,5 @@ submitButton.onclick = function () {
 };
 
 generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+
+
