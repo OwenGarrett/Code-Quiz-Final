@@ -1,6 +1,21 @@
 var quizContainer = document.getElementById("quiz");
 var resultsContainer = document.getElementById("results");
+var startButton = document.querySelector(".start-button");
 var submitButton = document.getElementById("submit");
+
+
+// Start game when user clicks Start button 
+function startGame() {
+    isWin = false;
+    timerCount = 10;
+    // Prevents start button from being clicked when round is in progress
+    startButton.disabled = true;
+    renderBlanks()
+    startTimer()
+  }
+
+
+
 
 // Quiz Questions 
 var questions = [
@@ -129,3 +144,8 @@ submitButton.onclick = function () {
 generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
 
 
+// start button that when clicked starts the timed quiz 
+startButton.addEventListener("click", startGame);
+
+// Calls init() so that it fires when page opened
+init();
