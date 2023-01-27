@@ -4,8 +4,10 @@ OG
 
 <img src="app.png" alt="Deployed-Application" title="Deployed-Application">
 
+Submission: https://sheogorath9.github.io/Code-Quiz-Final/
 
-Attempts:
+
+Previous Attempts:
 
 https://github.com/Sheogorath9/Code-Quiz
 
@@ -16,3 +18,4 @@ https://github.com/Sheogorath9/API-Code-Quiz-Challenge
 https://github.com/Sheogorath9/Web-APIs-Challenge-Code-Quiz
 
 
+👽☯️
